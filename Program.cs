@@ -1,4 +1,4 @@
-using LojaApi.Data;
+using cadastro_clientes.Data;
 
 WebApplicationBuilder builder =
     WebApplication.CreateBuilder(args);

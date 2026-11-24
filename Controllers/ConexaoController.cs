@@ -2,7 +2,7 @@
 Importa o namespace onde está localizada
 a classe ConexaoBanco.
 */
-using LojaApi.Data;
+using cadastro_clientes.Data;
 
 /*
 Importa os recursos do ASP.NET Core MVC.
@@ -12,10 +12,10 @@ ControllerBase, ApiController, Route, HttpGet e IActionResult.
 using Microsoft.AspNetCore.Mvc;
 
 /*
-Define que esta classe pertence ao namespace LojaApi.Controllers.
+Define que esta classe pertence ao namespace cadastro_clientes.Controllers.
 O namespace ajuda a organizar os Controllers da aplicação.
 */
-namespace LojaApi.Controllers;
+namespace cadastro_clientes.Controllers;
 
 /* 
 Informa ao ASP.NET Core que esta classe

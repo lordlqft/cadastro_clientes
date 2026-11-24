@@ -4,7 +4,7 @@ using Npgsql;
 
 // Define que a classe pertence ao namespace LojaApi.Data.
 // O namespace ajuda a organizar as classes da aplicação.
-namespace LojaApi.Data;
+namespace cadastro_clientes.Data;
 
 // Declara a classe pública responsável pela conexão com o banco.
 //
@@ -122,4 +122,4 @@ public class ConexaoBanco : IAsyncDisposable
         // incluindo as conexões mantidas por ela.
         await _fonteDados.DisposeAsync();
     }
-}  
+}
